@@ -1,5 +1,5 @@
 ﻿bookmarkApp.factory("bookmarkService", ["$resource", function ($resource) {
-    var baseUri='http://localhost:3000/bookmarks/';
+    var baseUri='http://servicedemo.azurewebsites.net/bookmarks/';
 
  var Bookmarks = $resource(baseUri+':rowkey', { rowkey: '@RowKey' }, { 'update': { method: 'PUT'} });
 
@@ -29,8 +29,3 @@
        remove: deleteBookmark
   };
 } ]);
-
-
-
-
-
