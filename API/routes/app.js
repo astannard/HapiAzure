@@ -13,6 +13,7 @@ var tableService = azure.createTableService(accountName, accountKey);
 var azureTable = new AzureTable(azure.createTableService(accountName, accountKey), tableName, partitionKey);
 var bookmarkController = new BookmarkController(azureTable);
 
+
 var routes =
    [
        {
