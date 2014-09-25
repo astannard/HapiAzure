@@ -1,0 +1,6 @@
+{
+    "STORAGE_NAME": "vacancydb",
+    "STORAGE_KEY": "dBcWcoSmQ+02GyeywR1wcszsu1AvJyqqm3xpp7zAFYbGfBIgqs8Gqcak1SjJ7oc/RdWHfz1j07eVf+brGPm7FA==",
+    "PARTITION_KEY": "myBookmarks",
+    "TABLE_NAME": "bookmarks"
+}
